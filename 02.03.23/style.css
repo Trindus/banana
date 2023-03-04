@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box 400px;
+}
+
+.banana{
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
+    float: left;
+    margin: auto;
+}
+
+body {
+    background-color: rgb(49, 44, 44);
+}
+
+.banana > div {
+    text-align: center;
+    background-color: rgb(131, 126, 126);
+    float: left;
+    margin: 10px;
+    width: 400px;
+    height: 600px;
+    border: solid rgb(31, 30, 30);
+    box-shadow: 3px 3px 4px rgb(82, 77, 77);
+    border-radius: 30px 5px 35px 5px;
+    padding: 0 20px;
+    position: relative;
+}
+
+div img {
+    width: 380px;
+    border: solid rgb(179, 168, 168);
+    box-shadow: 3px 3px 3px rgb(199, 195, 195);
+}
+
+.banana > div > a > p:last-child {
+position: absolute;
+background-color: rgb(209, 183, 149);
+bottom: 20px;
+width: 60%;
+left:   18%;
+padding: 10px 0;
+border: solid 2px black;
+border-radius: 7px;
+box-shadow: 3px 3px 3px rgb(29, 28, 28);
+transition: 0.25s;
+}
+.banana > div > a > p:hover{
+    background-color: rgb(146, 134, 120);
+    box-shadow: 0 0 0 black;
+}
+.banana > div > p {
+    padding: 10px;
+}
